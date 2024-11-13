@@ -19,8 +19,7 @@ To run the project locally, follow these steps:
    git clone <https://github.com/haryanto-py/derain-capsulegan.git>
    cd <derain-capsulegan>
 2. **Start XAMPP Server**:
-
-Launch the XAMPP server on your computer to run a local server environment.
+- Launch the XAMPP server on your computer to run a local server environment.
 
 3. **Run the Project**:
 - Open index.php on your local server to launch the deraining application.
