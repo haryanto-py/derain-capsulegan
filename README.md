@@ -6,6 +6,8 @@ This project is part of an undergraduate thesis in computer engineering at Unive
 
 The CapsuleGAN model leverages the spatial awareness of CapsNet to understand relationships between local details and larger objects in the image, making it more effective than traditional CNN-based models. Experimental results show that combining CapsNet and GAN architectures produces derained images with higher fidelity compared to many conventional deep learning models. However, the model still faces some limitations, such as residual blur effects and faint rain streaks due to occasional instability in the training process.
 
+![Pages from PPT Sidang Haryanto](https://github.com/user-attachments/assets/f9bc191c-01aa-4592-97b3-4c596c5f9439)
+
 ## Why This Project is Useful
 
 This project provides a foundational approach for developing enhanced image deraining models. By exploring the combination of CapsNet and GAN architectures, future research can build upon this work to address the residual artifacts and optimize model performance.
