@@ -22,7 +22,7 @@ To run the project locally, follow these steps:
 
 Launch the XAMPP server on your computer to run a local server environment.
 
-4. **Run the Project**:
+3. **Run the Project**:
 - Open index.php on your local server to launch the deraining application.
 - Upload a rain image to be tested.
 
