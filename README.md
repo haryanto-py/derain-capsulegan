@@ -20,16 +20,33 @@ To run the project locally, follow these steps:
    ```bash
    git clone <https://github.com/haryanto-py/derain-capsulegan.git>
    cd <derain-capsulegan>
-2. **Start XAMPP Server**:
+
+2. **Change directories**
+- Open index.php and change this line to corresponding path
+![image](https://github.com/user-attachments/assets/8c0e5e22-e0bb-40fc-8083-9a85a9950cc3)
+- Open synthetic.php and do the same thing
+![image](https://github.com/user-attachments/assets/ade12a63-a65d-4b03-ac30-dee93d80b8cc)
+
+3. **Start XAMPP Server**:
 - Launch the XAMPP server on your computer to run a local server environment.
 
-3. **Run the Project**:
+4. **Run the Project**:
 - Open index.php on your local server to launch the deraining application.
 - Upload a rain image to be tested.
 
-4. **View Results**:
+5. **View Results**:
 - Test images (real and synthetic) are available in the uploads folder.
 - After processing, output images will be saved in the outputs folder.
+
+## Snapshots
+- Real rain image de-raining page
+![image](https://github.com/user-attachments/assets/5685ffdf-ca92-4528-810a-d1cb6dedc00e)
+
+- Synthetic rain image de-raining page (1)
+![image](https://github.com/user-attachments/assets/2ee93542-7ef3-4d33-87c7-21c44aa895f4)
+
+- Synthetic rain image de-raining page (2)
+![image](https://github.com/user-attachments/assets/6f832f2c-b8d8-415d-9d5c-568ba51e461b)
 
 ## Citation
 If you use this project as part of your research or development, please cite it as follows:
