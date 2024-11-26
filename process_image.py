@@ -60,7 +60,7 @@ def process_image(image_path, target_path=None, model=generator_model):
 
         # Construct the output image path
         output_name = f"{image_name}_output{image_ext}"
-        output_path = os.path.join("C:/xampp3/htdocs/model_test/outputs/", output_name)
+        output_path = os.path.join("C:/xampp3/htdocs/derain-capsulegan/outputs/", output_name)
 
         result = {"output_path": output_path}
 

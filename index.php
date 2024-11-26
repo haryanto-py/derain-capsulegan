@@ -67,11 +67,11 @@
 
     // Process the uploaded image with the deep learning model
     if (isset($file_name)) {
-        $input_image = "C:/xampp3/htdocs/model_test/uploads/rain/" . $file_name;
-        $output_image = $model->processImage("C:/xampp3/htdocs/model_test/uploads/rain/" . $file_name);
+        $input_image = "C:/xampp3/htdocs/derain-capsulegan/uploads/rain/" . $file_name;
+        $output_image = $model->processImage("C:/xampp3/htdocs/derain-capsulegan/uploads/rain/" . $file_name);
 
         // Check if the outputs folder exists and is writable
-        $outputs_folder = "C:/xampp3/htdocs/model_test/outputs/";
+        $outputs_folder = "C:/xampp3/htdocs/derain-capsulegan/outputs/";
         if (!file_exists($outputs_folder) || !is_writable($outputs_folder)) {
             die("Error: Outputs folder does not exist or is not writable.");
         }
